@@ -614,8 +614,52 @@ html {
   height: 50vh;
 }
 
+.h-7 {
+  height: 1.75rem;
+}
+
+.h-70 {
+  height: 70vh;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
 .w-24 {
   width: 6rem;
+}
+
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-12 {
+  width: 3rem;
+}
+
+.w-1 {
+  width: 0.25rem;
+}
+
+.w-16 {
+  width: 4rem;
 }
 
 .basis-3\/4 {
@@ -707,6 +751,14 @@ html {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-1 {
+  padding: 0.25rem;
 }
 
 .px-2 {

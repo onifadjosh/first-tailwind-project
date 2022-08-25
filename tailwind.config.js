@@ -26,6 +26,7 @@ module.exports = {
 
       height: {
         '1/2-screen': '50vh',
+        '70': '70vh',
       },
 
       backgroundImage: {
