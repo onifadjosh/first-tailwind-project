@@ -12,7 +12,7 @@ module.exports = {
 
     screens:{
       sm: '280px',
-      // md: '480px',
+      md: '500px',
       lg: '976px',
       xl: '1440px',
     },
@@ -22,6 +22,11 @@ module.exports = {
         'primcol': '#B89B5E',
         'grayish-blue': '#293138',
         'dark-blue': '#1A2530',
+      },
+
+      flexBasis: {
+        '66.6': '66.2857143%',
+       
       },
 
       height: {

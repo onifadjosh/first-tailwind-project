@@ -11,7 +11,7 @@
   <link href="dist\output.css" rel="stylesheet">
 </head>
 <body>
-  <header class="bg-cyan-blue bg-hero-image bg-cover bg-blend-multiply bg-top  bg-no-repeat">
+  <header class="bg-cyan-blue bg-hero-image bg-cover bg-blend-multiply bg-top  bg-no-repeat md:h-1/2-screen">
     <!-- wrapping the header -->
     <div class="h-full">
 
@@ -21,10 +21,10 @@
         
         <!-- nav logo -->
         
-        <h1 class="text-primcol text-lg font-semibold">Samson & Gretel</h1>
+        <h1 class="text-primcol text-lg font-semibold xl:text-4xl">Samson & Gretel</h1>
         
         <!-- menu items -->
-        <div class="nav-menu  md:flex space-x-6 flex items-center justify-between basis-3/4 font-display text-sm">
+        <div class="nav-menu   space-x-6 flex items-center justify-between pr-10 gap-5 font-display text-sm xl:text-3xl">
           <a href="#" class="hover:text-primcol text-white ">Home</a>
           <a href="#" class="hover:text-primcol text-white">About Us</a>
           <a href="#" class="hover:text-primcol text-white">Services</a>
@@ -35,7 +35,7 @@
 
           
 
-        <div class="hamburger">
+        <div class="hamburger md:hidden">
           <span class="bar"></span>
           <span class="bar"></span>
           <span class="bar"></span>
@@ -47,15 +47,15 @@
       </nav>
 
       <!-- header content  -->
-      <div class="flex justify-center align-middle flex-col h-1/4 text-sm  ">
-        <h1 class="text-center text-sm text-white font-semibold tracking-wide py-4 ">
+      <div class="flex justify-center items-center flex-col h-3/4 text-sm  ">
+        <h1 class="text-center text-sm text-white font-semibold tracking-wide py-4 md:text-lg lg:text-2xl xl:text-5xl leading-6">
           A firm that backs you up with efficiency and<br>
           great results
         </h1>
 
         <!-- the same as the secondary button at nav -->
         <div class="flex justify-center pb-4">
-          <a href="#" class="text-center text-sm px-4 py-3 font-display font-thin bg-primcol text-white hover:text-primcol hover:bg-transparent hover:border hover:border-solid hover:border-primcol ">Contact Us</a>
+          <a href="#" class="text-center text-sm px-4 py-3 font-display font-thin bg-primcol text-white hover:text-primcol hover:bg-transparent hover:border hover:border-solid hover:border-primcol  xl:text-xl">Contact Us</a>
         </div>
       </div>
     </div>
@@ -66,7 +66,7 @@
   <section class="bg-grayish-blue ">
 
     <!-- container/wrapper for the section  -->
-    <div class="flex justify-center items-center flex-wrap py-10 text-white  gap-3.5">
+    <div class="flex justify-center items-center flex-wrap py-10 px-8  text-white  gap-3.5">
 
       <!-- boxes in the section with the primary colour borders -->
       
@@ -204,38 +204,38 @@
   <section class="bg-grayish-blue flex flex-col justify-center items-center text-center text-white">
     
     <!-- section 6 header wrapper -->
-    <div>
-      <h1>Meet Our Team</h1>
-      <p class="font-display">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
+    <div class="py-3 pb-4" >
+      <h1 class="text-center pt-4 text-lg">Meet Our Team</h1>
+      <p class="font-display text-xs">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
     </div>
 
 
     <!-- attorneys information in the section 6 -->
-    <div class="font-display">
+    <div class="font-display flex justify-center items-center gap-6 pb-6 flex-wrap">
 
       <!-- each attorney's information container  -->
       <div>
         <img src="dist\images\co-founder.jpg" alt="" srcset="">
-        <p>Samson Greg</p>
-        <p>Co-Founder</p>
-      </div>
+        <p class="text-sm">Samson Greg</p>
+        <p class="text-xs">Co-Founder</p>
+      </div >
 
       <div>
         <img src="dist\images\paralegal.jpg" alt="" srcset="">
-        <p>LAiLA STRong</p>
-        <p>Paralegal</p>
+        <p class="text-sm">LAiLA STRong</p>
+        <p class="text-xs">Paralegal</p>
       </div>
 
       <div>
         <img src="dist\images\partner.jpg" alt="" srcset="">
-        <p>Gretel brown</p>
-        <p>Partner</p>
+        <p class="text-sm">Gretel brown</p>
+        <p class="text-xs">Partner</p>
       </div>
 
       <div>
         <img src="dist\images\secretary.jpg" alt="" srcset="">
-        <p>Lucas cage</p>
-        <p>Secretary</p>
+        <p class="text-sm">Lucas cage</p>
+        <p class="text-xs">Secretary</p>
       </div>
       
     </div>
@@ -244,84 +244,123 @@
   </section>
 
   <!-- section 7 of the website -->
-  <section>
+  <section class="bg-cyan-blue font-display text-white">
 
-    <h1>What People are Saying</h1>
+    <h1 class="text-center  py-4">What People are Saying</h1>
 
+    <div class="slideshow-container text-xs">
 
-    <div class="section7-content-wrapper">
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
       <div class="mySlides fade">
-          
-        <div class="first-slide">
+        
+        <div class="text-center border border-solid border-primcol">
+          <p>
+              Aliqua culpa cillum amet elit dolore quis sint <br>
+             labore ea eiusmod pariatur sit qui ut. Laborum <br>
+            est ad aliquip anim qui. 
+          </p>
+          <h1>- Derrick johnson</h1>
+          <p>CEO, Lacoste</p>                                     
+        </div>
 
-            
-          <div class="slide-content-wrapper">
-          <div class="slide-content">
-            <p>
+        <div class="text-center border border-solid border-primcol">
+          <p>
               Aliqua culpa cillum amet elit dolore quis sint <br>
                labore ea eiusmod pariatur sit qui ut. Laborum <br>
               est ad aliquip anim qui. 
-            </p>
-            <h1>- Derrick johnson</h1>
-            <p>CEO, Lacoste</p>
-          </div>
+          </p>
+          <h1>- Derrick johnson</h1>
+          <p>CEO, Lacoste</p>                                     
         </div>
-          
       </div>
-
-      <div class="mySlides fade">
-          
-        <div class="second-slide">
-
-            
-          <div class="slide-content-wrapper">
-          <div class="slide-content">
-            <p>
-              Aliqua culpa cillum amet elit dolore quis sint <br>
-               labore ea eiusmod pariatur sit qui ut. Laborum <br>
-              est ad aliquip anim qui. 
-            </p>
-            <h1>- Derrick johnson</h1>
-            <p>CEO, Lacoste</p>
-          </div>
-        </div>
-          
-      </div>
-
       
-  </div>
+      <div class="mySlides fade">
+        
+        
+        <div class="text-center border border-solid border-primcol">
+          <p>
+              Aliqua culpa cillum amet elit dolore quis sint <br>
+             labore ea eiusmod pariatur sit qui ut. Laborum <br>
+            est ad aliquip anim qui. 
+          </p>
+          <h1>- Derrick johnson</h1>
+          <p>CEO, Lacoste</p>                                     
+        </div>
+
+        <div class="text-center border border-solid border-primcol">
+          <p>
+              Aliqua culpa cillum amet elit dolore quis sint <br>
+               labore ea eiusmod pariatur sit qui ut. Laborum <br>
+              est ad aliquip anim qui. 
+          </p>
+          <h1>- Derrick johnson</h1>
+          <p>CEO, Lacoste</p>                                     
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        
+        <div class="text-center border border-solid border-primcol">
+          <p>
+              Aliqua culpa cillum amet elit dolore quis sint <br>
+             labore ea eiusmod pariatur sit qui ut. Laborum <br>
+            est ad aliquip anim qui. 
+          </p>
+          <h1>- Derrick johnson</h1>
+          <p>CEO, Lacoste</p>                                     
+        </div>
+
+        <div class="text-center border border-solid border-primcol">
+          <p>
+              Aliqua culpa cillum amet elit dolore quis sint <br>
+               labore ea eiusmod pariatur sit qui ut. Laborum <br>
+              est ad aliquip anim qui. 
+          </p>
+          <h1>- Derrick johnson</h1>
+          <p>CEO, Lacoste</p>                                     
+        </div>
+        
+      </div>
+      
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+      </div>
   </section>
 
-  <footer class="h-1/2-screen bg-cyan-blue bg-footer-image bg-cover bg-blend-multiply bg-center bg-no-repeat text-white">
-    <div class="">
-      <h1>Samson & Gretel </h1>
-      <p>Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
+  <footer class=" bg-cyan-blue bg-footer-image bg-cover bg-blend-multiply bg-top bg-no-repeat text-white">
+    
+    <div class="flex flex-col justify-center items-center text-center">
+      <div class="py-4">
+        <h1 class="text-primcol text-lg font-semibold">Samson & Gretel </h1>
+        <p class="text-xs pb-5 font-display">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
+      </div>
+  
+      <ul class="py-4 font-display text-sm">
+        <li><address>358, Beverly View, New York</address></li>
+        <li><a href="tel:+917-849-2585"></a>917-849-2585</li>
+        <li><a class=" hover:text-primcol" href="mailto:contact@samsonandgretel.com">contact@samsonandgretel.com</a></li>
+      </ul>
     </div>
 
-    <ul>
-      <li>358, Beverly View, New York</li>
-      <li>917-849-2585</li>
-      <li>contact@samsonandgretel.com</li>
-    </ul>
-
-    
+    <div class="bg-cyan-blue text-sm text-primcol font-display">
+      <div class="flex ml-4 gap-4">
+        <p>Copyright 2022</p>
+        <h1>codesbyPampam</h1>
+      </div>
+  
+      <div>
+        <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #FFFFFF;"></i>
+        <i class="fa-brands fa-twitter fa-2xl"  style="color: #FFFFFF;"></i>
+      </div>
+    </div>
 
   </footer>
 
-  <div class="bg-cyan-blue">
-    <div>
-      <p>Copyright 2020</p>
-      <h1>codesbyPampam</h1>
-    </div>
-
-    <div>
-      <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #FFFFFF;"></i>
-      <i class="fa-brands fa-twitter fa-2xl"  style="color: #FFFFFF;"></i>
-    </div>
-  </div>
+  
 </body>
 
 <script src="src/scripts.js"></script>

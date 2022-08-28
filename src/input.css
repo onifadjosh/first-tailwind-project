@@ -17,44 +17,51 @@
     background-color: white;
 }
 
-.hamburger.active{
-    background-color: #1A2530;
-    z-index: 10;
-    position: fixed;
-    right: 0%;
-    top: 5%;
+@media screen and (max-width: 480px){
+
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 0px;
+        gap: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #1A2530;
+        height: 100vh;
+        width:100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 10;
+    }
+
+    .hamburger.active{
+        background-color: #1A2530;
+        z-index: 10;
+        position: fixed;
+        right: 0%;
+        top: 5%;
+    }
+    
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    
+    
+    .nav-item{
+        margin: 16px 0;
+    }
+    
+    .nav-menu.active{
+        left: 0;
+    }
+    
 }
 
-.hamburger.active .bar:nth-child(2){
-    opacity: 0;
-}
-.hamburger.active .bar:nth-child(1){
-    transform: translateY(8px) rotate(45deg);
-}
-.hamburger.active .bar:nth-child(3){
-    transform: translateY(-8px) rotate(-45deg);
-}
-
-.nav-menu{
-    position: fixed;
-    left: -100%;
-    top: 0px;
-    gap: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #1A2530;
-    height: 100vh;
-    width:100%;
-    text-align: center;
-    transition: 0.3s;
-    z-index: 10;
-}
-
-.nav-item{
-    margin: 16px 0;
-}
-
-.nav-menu.active{
-    left: 0;
-}
