@@ -627,6 +627,10 @@ html {
   justify-content: space-between;
 }
 
+.gap-5 {
+  gap: 1.25rem;
+}
+
 .gap-3\.5 {
   gap: 0.875rem;
 }
@@ -635,16 +639,16 @@ html {
   gap: 0.75rem;
 }
 
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
 
 .gap-4 {
   gap: 1rem;
-}
-
-.gap-5 {
-  gap: 1.25rem;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -720,6 +724,10 @@ html {
 
 .p-1 {
   padding: 0.25rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
 }
 
 .px-2 {
@@ -825,20 +833,12 @@ html {
   font-weight: 300;
 }
 
-.leading-5 {
-  line-height: 1.25rem;
-}
-
-.leading-3 {
-  line-height: .75rem;
-}
-
-.leading-4 {
-  line-height: 1rem;
-}
-
 .leading-6 {
   line-height: 1.5rem;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
 }
 
 .tracking-wide {
@@ -945,9 +945,27 @@ html {
     height: 50vh;
   }
 
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:gap-9 {
+    gap: 2.25rem;
+  }
+
   .md\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .md\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:text-sm {
@@ -957,43 +975,74 @@ html {
 }
 
 @media (min-width: 976px) {
-  .lg\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-sm {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
 }
 
 @media (min-width: 1440px) {
-  .xl\:h-12 {
-    height: 3rem;
+  .xl\:mt-6 {
+    margin-top: 1.5rem;
   }
 
-  .xl\:h-1\/2-screen {
-    height: 50vh;
+  .xl\:flex {
+    display: flex;
   }
 
-  .xl\:text-6xl {
-    font-size: 3.75rem;
+  .xl\:h-40 {
+    height: 40vh;
+  }
+
+  .xl\:h-64 {
+    height: 16rem;
+  }
+
+  .xl\:h-20 {
+    height: 20vh;
+  }
+
+  .xl\:w-64 {
+    width: 16rem;
+  }
+
+  .xl\:items-center {
+    align-items: center;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
+  .xl\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .xl\:p-6 {
+    padding: 1.5rem;
+  }
+
+  .xl\:py-4 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .xl\:pb-5 {
+    padding-bottom: 1.25rem;
+  }
+
+  .xl\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .xl\:text-5xl {
+    font-size: 3rem;
     line-height: 1;
   }
 
@@ -1007,24 +1056,13 @@ html {
     line-height: 2rem;
   }
 
-  .xl\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
-  .xl\:text-5xl {
-    font-size: 3rem;
-    line-height: 1;
+  .xl\:leading-10 {
+    line-height: 2.5rem;
   }
 }
 
