@@ -11,7 +11,7 @@
   <link href="dist\output.css" rel="stylesheet">
 </head>
 <body>
-  <header class="bg-cyan-blue bg-hero-image bg-cover bg-blend-multiply bg-top  bg-no-repeat md:h-1/2-screen">
+  <header class="bg-cyan-blue bg-hero-image bg-cover bg-blend-multiply bg-top  bg-no-repeat h-70">
     <!-- wrapping the header -->
     <div class="h-full">
 
@@ -21,20 +21,20 @@
         
         <!-- nav logo -->
         
-        <h1 class="text-primcol text-lg font-semibold xl:text-4xl">Samson & Gretel</h1>
+        <h1 class=" logo text-primcol text-lg font-semibold xl:text-4xl">Samson & Gretel</h1>
         
         <!-- menu items -->
-        <div class="nav-menu   space-x-6 flex items-center justify-between pr-10 gap-5 font-display text-sm xl:text-3xl">
+        <div class="nav-menu  flex items-center justify-between pr-10 gap-5 font-display text-sm xl:text-3xl">
           <a href="#" class="hover:text-primcol text-white ">Home</a>
           <a href="#" class="hover:text-primcol text-white">About Us</a>
           <a href="#" class="hover:text-primcol text-white">Services</a>
           <a href="#" class="hover:text-primcol text-white">Our Team</a>
           <!-- secondary button -->
-          <a href="#" class="text-center  px-2 py-1 font-display bg-primcol text-white hover:text-primcol hover:bg-transparent hover:border hover:border-solid hover:border-primcol">Contact Us</a>
+          <a href="#footer" class="text-center  px-3.5 py-2 font-display bg-primcol text-white hover:text-primcol hover:bg-transparent hover:border hover:border-solid hover:border-primcol">Contact Us</a>
         </div>
 
           
-
+        <!-- header hambuger button.... design in input css -->
         <div class="hamburger md:hidden">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -47,7 +47,7 @@
       </nav>
 
       <!-- header content  -->
-      <div class="flex justify-center items-center flex-col h-3/4 text-sm  ">
+      <div class="header-content flex justify-center items-center flex-col h-3/4 text-sm  ">
         <h1 class="text-center text-sm text-white font-semibold tracking-wide py-4 md:text-lg lg:text-2xl xl:text-5xl leading-6">
           A firm that backs you up with efficiency and<br>
           great results
@@ -55,7 +55,7 @@
 
         <!-- the same as the secondary button at nav -->
         <div class="flex justify-center pb-4">
-          <a href="#" class="text-center text-sm px-4 py-3 font-display font-thin bg-primcol text-white hover:text-primcol hover:bg-transparent hover:border hover:border-solid hover:border-primcol  xl:text-3xl xl:py-4 xl:mt-6">Contact Us</a>
+          <a href="#footer" class="text-center text-sm px-4 py-3 font-display font-thin bg-primcol text-white hover:text-primcol hover:bg-transparent hover:border hover:border-solid hover:border-primcol  xl:text-3xl xl:py-4 xl:mt-6">Contact Us</a>
         </div>
       </div>
     </div>
@@ -114,7 +114,7 @@
         Who We Are
       </h1>
 
-      <p class="text-xs py-4  font-light leading-5 xl:text-3xl md:text-xl xl:leading-10">
+      <p class="text-xs py-4  font-light leading-5 xl:text-2xl md:text-sm xl:leading-10">
         Aliqua culpa cillum amet elit dolore quis sint labore ea eiusmod pariatur sit qui ut. Laborum est ad<br>
         aliquip anim qui. Nisi magna exercitation adipisicing reprehenderit exercitation sit veniam deserunt<br>
         eiusmod amet incididunt qui. Excepteur quis cillum commodo minim ut nisi quis pariatur cillum<br>
@@ -131,11 +131,11 @@
     <div class="flex flex-col justify-center items-center p-4">
       <h1 class="text-lg font-thin xl:text-4xl md:text-2xl">Areas of Practise</h1>
 
-      <p class="font-display text-xs text-center xl:text-2xl md:text-lg">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
+      <p class="font-display text-xs text-center xl:text-2xl md:text-sm">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
     </div>
 
     <!-- section content wrapper -->
-    <div class="flex flex-col justify-center items-center text-center p-4 md:flex-row md: gap-7">
+    <div class="flex flex-wrap flex-col justify-center items-center text-center p-4 md:flex-row md: gap-7">
       
       <!-- first section content -->
       <div class="flex flex-col font-display justify-center items-center">
@@ -144,8 +144,8 @@
           <img src="dist\images\dollar.jpg" alt="">
         </div>
 
-        <h2 class="text-sm py-2 xl:text-2xl md:text-xl">FINANCE LAW</h2>
-        <p class=" text-xs pb-5 xl:text-xl md:text-lg">Aliqua culpa cillum amet elit dolore quis <br>
+        <h2 class="text-sm py-2 xl:text-lg md:text-sm">FINANCE LAW</h2>
+        <p class=" text-xs pb-5 xl:text-lg md:text-sm">Aliqua culpa cillum amet elit dolore quis <br>
           sint labore ea eiusmod pariatur sit qui.  <br>
           Laborum est ad aliquip anim qui. 
         </p>
@@ -158,8 +158,8 @@
           <img src="dist\images\mugshot.jpg" alt="">
         </div>
 
-        <h2 class="text-sm py-2 xl:text-2xl md:text-xl">CRIMINAL LAW</h2>
-        <p class="  text-xs pb-5 xl:text-xl md:text-lg">Aliqua culpa cillum amet elit dolore quis <br>
+        <h2 class="text-sm py-2 xl:text-lg md:text-sm">CRIMINAL LAW</h2>
+        <p class="  text-xs pb-5 xl:text-lg md:text-sm">Aliqua culpa cillum amet elit dolore quis <br>
           sint labore ea eiusmod pariatur sit qui.  <br>
           Laborum est ad aliquip anim qui. 
         </p>
@@ -174,8 +174,8 @@
         </div>
 
 
-        <h2 class="text-sm py-2 xl:text-2xl md:text-xl">FAMILY LAW</h2>
-        <p class="text-xs pb-5 xl:text-xl md:text-lg">Aliqua culpa cillum amet elit dolore quis <br>
+        <h2 class="text-sm py-2 xl:text-lg md:text-sm">FAMILY LAW</h2>
+        <p class="text-xs pb-5 xl:text-lg md:text-sm">Aliqua culpa cillum amet elit dolore quis <br>
           sint labore ea eiusmod pariatur sit qui.  <br>
           Laborum est ad aliquip anim qui. 
         </p>
@@ -206,7 +206,7 @@
     <!-- section 6 header wrapper -->
     <div class="py-3 pb-4" >
       <h1 class="text-center pt-4 text-lg xl:text-4xl md:text-2xl">Meet Our Team</h1>
-      <p class="font-display text-xs xl:text-xl md:text-lg">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
+      <p class="font-display text-xs xl:text-xl md:text-sm">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
     </div>
 
 
@@ -215,25 +215,25 @@
 
       <!-- each attorney's information container  -->
       <div class="flex flex-col items-center gap-3">
-        <img src="dist\images\co-founder.jpg" alt="" srcset="">
+        <img src="dist\images\co-founder.jpg" alt="co-founder" srcset="">
         <p class="text-sm xl:text-xl ">SAMSON GREG</p>
         <p class="text-xs xl:text-lg ">Co-Founder</p>
       </div >
 
       <div class="flex flex-col items-center gap-3">
-        <img src="dist\images\paralegal.jpg" alt="" srcset="">
+        <img src="dist\images\paralegal.jpg" alt="Paralegal" srcset="">
         <p class="text-sm xl:text-xl ">LAILA STRONG</p>
         <p class="text-xs xl:text-lg ">Paralegal</p>
       </div>
 
       <div class="flex flex-col items-center gap-3">
-        <img src="dist\images\partner.jpg" alt="" srcset="">
+        <img src="dist\images\partner.jpg" alt="Partner" srcset="">
         <p class="text-sm xl:text-xl ">GRETEL BROWN</p>
         <p class="text-xs xl:text-lg ">Partner</p>
       </div>
 
       <div class="flex flex-col items-center gap-3">
-        <img src="dist\images\secretary.jpg" alt="" srcset="">
+        <img src="dist\images\secretary.jpg" alt="secretary" srcset="">
         <p class="text-sm xl:text-xl ">LUCAS CAGE</p>
         <p class="text-xs xl:text-lg ">Secretary</p>
       </div>
@@ -246,10 +246,14 @@
   <!-- section 7 of the website -->
   <section class="bg-cyan-blue font-display text-white">
 
+    <!-- section 7 heading.... -->
     <h1 class="text-center  py-4 xl:text-2xl md:text-xl">What People are Saying</h1>
 
+    <!-- the container for the slide show.. javascript in scripts.js -->
     <div class="slideshow-container flex flex-wrap justify-center items-center text-xs">
 
+
+      <!-- each slide container and their contents.. i really don't know how to use comments... but i will keep on trying -->
       <div class="mySlides gap-6 flex-wrap justify-center items-center  fade  ">
         
         <div class="text-center border border-solid p-6 border-primcol">
@@ -275,6 +279,8 @@
         </div>
       </div>
       
+
+      <!-- each slide container and their contents.. i really don't know how to use comments... but i will keep on trying -->
       <div class="mySlides gap-6 flex-wrap justify-center items-center fade">
         
         
@@ -301,6 +307,8 @@
         </div>
       </div>
       
+
+      <!-- each slide container and their contents.. i really don't know how to use comments... but i will keep on trying -->
       <div class="mySlides gap-6 flex-wrap justify-center items-center  fade">
         
         <div class="text-center border border-solid p-6 border-primcol">
@@ -327,9 +335,10 @@
         
       </div>
       
-      </div>
-      <br>
+    </div>
+    <br>
       
+      <!-- the active slider dots to note display movements -->
       <div style="text-align:center">
         <span class="dot"></span> 
         <span class="dot"></span> 
@@ -337,30 +346,35 @@
       </div>
   </section>
 
+
+  <!-- yayyy!!! the page's footer... comments!!!! -->
   <footer class=" bg-cyan-blue bg-footer-image bg-cover bg-blend-multiply bg-top bg-no-repeat text-white">
     
-    <div class="flex flex-col justify-center items-center text-center">
+    <!-- info/contact section...  -->
+    <div id="footer" class="flex flex-col justify-center items-center text-center">
       <div class="py-4">
         <h1 class="text-primcol text-lg font-semibold">Samson & Gretel </h1>
         <p class="text-xs pb-5 font-display">Aliqua culpa cillum amet elit dolore pariatur sit qui ut.</p>
       </div>
   
-      <ul class="py-4 font-display text-sm">
-        <li><address>358, Beverly View, New York</address></li>
-        <li><a href="tel:+917-849-2585"></a>917-849-2585</li>
-        <li><a class=" hover:text-primcol" href="mailto:contact@samsonandgretel.com">contact@samsonandgretel.com</a></li>
+      <ul class=" pb-5 font-display text-sm md:flex md:gap-4">
+        <li class="pb-1"><address><i  class="fa-solid fa-location-dot text-primcol  pr-2"></i>358, Beverly View, New York</address></li>
+        <li class="pb-1"><a class=" hover:text-primcol" href="tel:+917-849-2585"><i class="fa-solid fa-phone text-primcol pr-2 "></i>917-849-2585</a></li>
+        <li class="pb-1"><a class=" hover:text-primcol" href="mailto:contact@samsonandgretel.com"><i class="fa-solid fa-envelope text-primcol  pr-2"></i>contact@samsonandgretel.com</a></li>
       </ul>
     </div>
 
-    <div class="bg-cyan-blue text-sm text-primcol font-display">
+    <!-- copyright section -->
+    <div class="bg-cyan-blue text-sm text-primcol font-display flex justify-between py-6 md:px-10">
       <div class="flex ml-4 gap-4">
         <p>Copyright 2022</p>
         <h1>codesbyPampam</h1>
       </div>
   
-      <div>
-        <i class="fa-brands fa-linkedin-in fa-2xl" style="color: #FFFFFF;"></i>
-        <i class="fa-brands fa-twitter fa-2xl"  style="color: #FFFFFF;"></i>
+      <div class="flex gap-3">
+        <i class="fa-brands fa-facebook-f text-primcol"></i>
+        <i class="fa-brands fa-instagram text-primcol"></i>
+        <i class="fa-brands fa-twitter text-primcol "></i>
       </div>
     </div>
 
