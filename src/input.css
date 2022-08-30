@@ -20,25 +20,25 @@
 @media screen and (min-width: 700px) {
     .logo{
         animation-name: moveInLeft;
-        animation-duration: 1.5s;
+        animation-duration: 1s;
         animation-timing-function: ease-in-out;
     }
     .header-content{
         animation-name: moveFromTop;
-        animation-duration: 1.5s;
+        animation-duration: 1s;
         animation-timing-function: ease-in-out; 
     }
     
     .nav-menu{
         animation-name: moveInRight;
-        animation-duration: 1.5s;
+        animation-duration: 1s;
         animation-timing-function: ease ease-in-out;
     }
     
     @keyframes moveInLeft {
         0%{
             opacity: 0;
-            transform: translateX(-300px);
+            transform: translateX(-100px);
         }
     
         100%{
@@ -51,7 +51,7 @@
     @keyframes moveInRight {
         0%{
             opacity: 0;
-            transform: translateX(300px);
+            transform: translateX(100px);
         }
     
         100%{
@@ -64,7 +64,7 @@
     @keyframes moveFromTop {
         0%{
             opacity: 0;
-            transform: translateY(-200px);
+            transform: translateY(-100px);
         }
     
         100%{

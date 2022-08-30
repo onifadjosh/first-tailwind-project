@@ -583,20 +583,12 @@ html {
   }
 }
 
-.ml-4 {
-  margin-left: 1rem;
+.ml-3 {
+  margin-left: 0.75rem;
 }
 
 .mr-3 {
   margin-right: 0.75rem;
-}
-
-.mr-2 {
-  margin-right: 0.5rem;
-}
-
-.ml-3 {
-  margin-left: 0.75rem;
 }
 
 .flex {
@@ -607,8 +599,8 @@ html {
   display: contents;
 }
 
-.h-70 {
-  height: 70vh;
+.h-1\/2-screen {
+  height: 50vh;
 }
 
 .h-full {
@@ -623,8 +615,8 @@ html {
   height: 6rem;
 }
 
-.h-1\/2-screen {
-  height: 50vh;
+.h-20 {
+  height: 20vh;
 }
 
 .w-24 {
@@ -903,8 +895,8 @@ html {
   .logo{
     -webkit-animation-name: moveInLeft;
             animation-name: moveInLeft;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
     -webkit-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
   }
@@ -912,8 +904,8 @@ html {
   .header-content{
     -webkit-animation-name: moveFromTop;
             animation-name: moveFromTop;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
     -webkit-animation-timing-function: ease-in-out;
             animation-timing-function: ease-in-out;
   }
@@ -921,8 +913,8 @@ html {
   .nav-menu{
     -webkit-animation-name: moveInRight;
             animation-name: moveInRight;
-    -webkit-animation-duration: 1.5s;
-            animation-duration: 1.5s;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
     -webkit-animation-timing-function: ease ease-in-out;
             animation-timing-function: ease ease-in-out;
   }
@@ -930,7 +922,7 @@ html {
   @-webkit-keyframes moveInLeft {
     0%{
       opacity: 0;
-      transform: translateX(-300px);
+      transform: translateX(-100px);
     }
 
     100%{
@@ -942,7 +934,7 @@ html {
   @keyframes moveInLeft {
     0%{
       opacity: 0;
-      transform: translateX(-300px);
+      transform: translateX(-100px);
     }
 
     100%{
@@ -954,7 +946,7 @@ html {
   @-webkit-keyframes moveInRight {
     0%{
       opacity: 0;
-      transform: translateX(300px);
+      transform: translateX(100px);
     }
 
     100%{
@@ -966,7 +958,7 @@ html {
   @keyframes moveInRight {
     0%{
       opacity: 0;
-      transform: translateX(300px);
+      transform: translateX(100px);
     }
 
     100%{
@@ -978,7 +970,7 @@ html {
   @-webkit-keyframes moveFromTop {
     0%{
       opacity: 0;
-      transform: translateY(-200px);
+      transform: translateY(-100px);
     }
 
     100%{
@@ -990,7 +982,7 @@ html {
   @keyframes moveFromTop {
     0%{
       opacity: 0;
-      transform: translateY(-200px);
+      transform: translateY(-100px);
     }
 
     100%{
@@ -1175,6 +1167,10 @@ html {
     display: flex;
   }
 
+  .xl\:h-1\/2-screen {
+    height: 50vh;
+  }
+
   .xl\:h-40 {
     height: 40vh;
   }
@@ -1185,18 +1181,6 @@ html {
 
   .xl\:h-20 {
     height: 20vh;
-  }
-
-  .xl\:h-1 {
-    height: 0.25rem;
-  }
-
-  .xl\:h-1\/2 {
-    height: 50%;
-  }
-
-  .xl\:h-1\/2-screen {
-    height: 50vh;
   }
 
   .xl\:w-64 {
